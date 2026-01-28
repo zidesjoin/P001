@@ -48,3 +48,13 @@
           ]},
 
       ]};
+
+        const Select_Ph = new L.Control.Layers.Tree({}, null, { collapsed: false, });
+        Select_Ph.addTo(map).collapseTree().expandSelected();
+        Select_Ph.setOverlayTree(Pharmacie_w47).collapseTree(true).expandSelected(true);
+      
+        const makePopups = function(node) {
+          if (node.layer) { node.layer.bindPopup(node.label); }
+          if (node.children) { node.children.forEach(function(element) { makePopups(element); }); }
+        };
+        makePopups(Pharmacie_w47);
