@@ -58,4 +58,4 @@
           if (node.children) { node.children.forEach(function(element) { makePopups(element); }); }
         };
         makePopups(Pharmacie_w47);
-       ctl.setOverlayTree(Pharmacies_W47).collapseTree(true).expandSelected(true);
+       
