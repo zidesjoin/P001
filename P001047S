@@ -1,0 +1,22 @@
+          const Pharmacie_w47 = {label: &#39;<b>Pharmacies W.Ghardaia</b>&#39;, selectAllCheckbox: true, children: [
+
+          {label: &#39;<b>C.Ghardaia</b>&#39;, selectAllCheckbox: true, children: [
+            {label: &#39;Chikh Salah&#39;, layer: new L.Marker([50.823000, 6.187000])},
+            {label: &#39;El Hikma&#39;, layer: new L.Marker([50.982000, 12.506000])},
+            {label: &#39;Hadj Daoud&#39;, layer: new L.Marker([51.483000, 7.899000])},
+            {label: &#39;Moussa El Mel&#39;, layer: new L.Marker([48.425000, 10.932000])},
+          ]},
+
+          {label: &#39;<b>C.Guerrara</b>&#39;, selectAllCheckbox: true, children: [
+            {label: &#39;Ph 5&#39;, layer: new L.Marker([38.282000, -0.558000])},
+            {label: &#39;Ph 6&#39;, layer: new L.Marker([36.844000, -2.370000])},
+            {label: &#39;Ph 7&#39;, layer: new L.Marker([43.563000, -6.034000])},
+          ]},
+
+          {label: &#39;<b>C.Metlili</b>&#39;, selectAllCheckbox: true, children: [
+            {label: &#39;Ph 8&#39;, layer: new L.Marker([44.175000, 0.591000])},
+            {label: &#39;Ph 9&#39;, layer: new L.Marker([43.505000, 5.368000])},
+            {label: &#39;Ph 10&#39;, layer: new L.Marker([43.914000, 2.113000])},
+          ]},
+
+        ]};
