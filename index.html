@@ -613,6 +613,9 @@
       };
     };
 
+  </script>
+
+<script>  
     const Pharmacies_W47 = 
       { label: 'W.Ghardaia', selectAllCheckbox: true, children: [
 
@@ -662,7 +665,9 @@
           ]},
 
       ]};
-
+  </script>
+  
+<script>
     const makePopups = function(node) {
       if (node.layer) { node.layer.bindPopup(node.label); }
       if (node.children) { node.children.forEach(function(element) { makePopups(element); }); }
