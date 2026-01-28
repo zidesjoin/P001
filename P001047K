@@ -1,5 +1,5 @@
  const Pharmacies_W47 = 
-      { label: 'W.Ghardaia 47000', selectAllCheckbox: true, children: [
+      { label: 'W.Ghardaia 47000-16000', selectAllCheckbox: true, children: [
 
         { label: 'Commune 01', selectAllCheckbox: true, children: [
             { label: 'Ghardaia 16', layer: new L.Marker([50.823000, 6.187000]) },
