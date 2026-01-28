@@ -3,7 +3,7 @@
 
         { label: '<strong style="font-size: 14px; color:red;">C.Ghardaia</strong>', selectAllCheckbox: true, children: [
             { label: 'Chikh Salah', layer: new L.Marker([50.823000, 6.187000]) },
-            { label: 'Daia ben dahoua', layer: new L.Marker([50.982000, 12.506000]) },
+            { label: 'El Hikma', layer: new L.Marker([50.982000, 12.506000]) },
             { label: 'Zelfana', layer: new L.Marker([51.483000, 7.899000]) },
             { label: 'Berriean', layer: new L.Marker([48.425000, 10.932000]) },
             { label: 'Guerrara', layer: new L.Marker([48.791000, 8.187000]) },
@@ -21,8 +21,8 @@
             { label: 'COLOGNE - CGN', layer: new L.Marker([50.866000, 7.143000]) },
           ]},
 
-        { label: '<strong style="font-size: 14px; color:red;">Commune 02</strong>', selectAllCheckbox: true, children: [
-            { label: 'ALICANTE - ALC', layer: new L.Marker([38.282000, -0.558000]) },
+        { label: '<strong style="font-size: 14px; color:red;">C.Metlili</strong>', selectAllCheckbox: true, children: [
+            { label: 'Rezouk', layer: new L.Marker([38.282000, -0.558000]) },
             { label: 'ALMERIA - LEI', layer: new L.Marker([36.844000, -2.370000])},
             { label: 'AVILES - OVD', layer: new L.Marker([43.563000, -6.034000])},
             { label: 'BADAJOZ - BJZ', layer: new L.Marker([38.891000, -6.821000])},
@@ -34,8 +34,8 @@
             { label: 'GRANADA - GRX', layer: new L.Marker([37.189000, -3.777000])},
           ]},
 
-        { label: '<strong style="font-size: 14px; color:red;">Commune 03</strong>', selectAllCheckbox: true, children: [
-            { label: 'AGEN - AGF', layer: new L.Marker([44.175000, 0.591000]) },
+        { label: '<strong style="font-size: 14px; color:red;">C.Guerrara</strong>', selectAllCheckbox: true, children: [
+            { label: 'Assaada', layer: new L.Marker([44.175000, 0.591000]) },
             { label: 'AIX-LES-MILLES - QXB', layer: new L.Marker([43.505000, 5.368000]) },
             { label: 'ALBI - LBI', layer: new L.Marker([43.914000, 2.113000]) },
             { label: 'ANGOULEME - ANG', layer: new L.Marker([45.729000, 0.221000]) },
