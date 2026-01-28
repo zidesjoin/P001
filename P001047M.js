@@ -2,11 +2,11 @@
       { label: 'W.Ghardaia', selectAllCheckbox: true, children: [
 
         { label: 'Commune 01', selectAllCheckbox: true, children: [
-            { label: 'Ghardaia', layer: new L.Marker([50.823000, 6.187000]) },
+            { label: 'Ghardaia 16', layer: new L.Marker([50.823000, 6.187000]) },
             { label: 'Daia ben dahoua', layer: new L.Marker([50.982000, 12.506000]) },
             { label: 'Zelfana', layer: new L.Marker([51.483000, 7.899000]) },
             { label: 'Berriean', layer: new L.Marker([48.425000, 10.932000]) },
-            { label: 'Guerrara', layer: new L.Marker([48.791000, 8.187000]) },
+            { label: 'Guerrara 02', layer: new L.Marker([48.791000, 8.187000]) },
             { label: 'BAUTZEN - BBJ', layer: new L.Marker([51.193000, 14.520000]) },
             { label: 'BAYREUTH - BYU', layer: new L.Marker([49.984000, 11.638000]) },
             { label: 'BERLIN - SXF', layer: new L.Marker([52.380000, 13.523000]) },
