@@ -1,9 +1,8 @@
     const Pharmacies_W47 = 
-      //{ label: '<strong style="font-size: 14px; color:green;">W.Ghardaia</strong>', children:[
-      { label: '<strong style="font-size: 14px; color:green;">Pharmacies W.Ghardaia</strong>', selectAllCheckbox: true, children: [
+      { label: 'W.Ghardaia', selectAllCheckbox: true, children: [
 
-        { label: '<strong style="font-size: 14px; color:red;">Commune 01</strong>', selectAllCheckbox: true, children: [
-            { label: 'Ghardaia 16', layer: new L.Marker([50.823000, 6.187000]) },
+        { label: 'Commune 01', selectAllCheckbox: true, children: [
+            { label: 'Ghardaia', layer: new L.Marker([50.823000, 6.187000]) },
             { label: 'Daia ben dahoua', layer: new L.Marker([50.982000, 12.506000]) },
             { label: 'Zelfana', layer: new L.Marker([51.483000, 7.899000]) },
             { label: 'Berriean', layer: new L.Marker([48.425000, 10.932000]) },
@@ -22,7 +21,7 @@
             { label: 'COLOGNE - CGN', layer: new L.Marker([50.866000, 7.143000]) },
           ]},
 
-        { label: '<strong style="font-size: 14px; color:red;">Commune 02</strong>', selectAllCheckbox: true, children: [
+        { label: 'Commune 02', selectAllCheckbox: true, children: [
             { label: 'ALICANTE - ALC', layer: new L.Marker([38.282000, -0.558000]) },
             { label: 'ALMERIA - LEI', layer: new L.Marker([36.844000, -2.370000])},
             { label: 'AVILES - OVD', layer: new L.Marker([43.563000, -6.034000])},
@@ -35,7 +34,7 @@
             { label: 'GRANADA - GRX', layer: new L.Marker([37.189000, -3.777000])},
           ]},
 
-        { label: '<strong style="font-size: 14px; color:red;">Commune 03</strong>', selectAllCheckbox: true, children: [
+        { label: 'Commune 03', selectAllCheckbox: true, children: [
             { label: 'AGEN - AGF', layer: new L.Marker([44.175000, 0.591000]) },
             { label: 'AIX-LES-MILLES - QXB', layer: new L.Marker([43.505000, 5.368000]) },
             { label: 'ALBI - LBI', layer: new L.Marker([43.914000, 2.113000]) },
@@ -48,14 +47,4 @@
           ]},
 
       ]};
-
-        const Select_Ph = new L.Control.Layers.Tree({}, null, { collapsed: false, });
-        Select_Ph.addTo(map).collapseTree().expandSelected();
-        Select_Ph.setOverlayTree(Pharmacie_w47).collapseTree(true).expandSelected(true);
-      
-        const makePopups = function(node) {
-          if (node.layer) { node.layer.bindPopup(node.label); }
-          if (node.children) { node.children.forEach(function(element) { makePopups(element); }); }
-        };
-        makePopups(Pharmacie_w47);
-       
+  
