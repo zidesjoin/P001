@@ -3,7 +3,7 @@
       { label: '<strong style="font-size: 14px; color:green;">Pharmacies W.Ghardaia</strong>', selectAllCheckbox: true, children: [
 
         { label: '<strong style="font-size: 14px; color:red;">Commune 01</strong>', selectAllCheckbox: true, children: [
-            { label: 'Ghardaia', layer: new L.Marker([50.823000, 6.187000]) },
+            { label: 'Ghardaia 16', layer: new L.Marker([50.823000, 6.187000]) },
             { label: 'Daia ben dahoua', layer: new L.Marker([50.982000, 12.506000]) },
             { label: 'Zelfana', layer: new L.Marker([51.483000, 7.899000]) },
             { label: 'Berriean', layer: new L.Marker([48.425000, 10.932000]) },
@@ -48,13 +48,3 @@
           ]},
 
       ]};
-
-        const Select_Ph = new L.Control.Layers.Tree({}, null, { collapsed: false, });
-        Select_Ph.addTo(map).collapseTree().expandSelected();
-        Select_Ph.setOverlayTree(Pharmacie_w47).collapseTree(true).expandSelected(true);
-      
-        const makePopups = function(node) {
-          if (node.layer) { node.layer.bindPopup(node.label); }
-          if (node.children) { node.children.forEach(function(element) { makePopups(element); }); }
-        };
-        makePopups(Pharmacie_w47);
