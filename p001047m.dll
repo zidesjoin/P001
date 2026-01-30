@@ -6,6 +6,6 @@
             { label: '<b>Abderrahim TOYOTA</b>', layer: new L.Marker([51.823000, 6.187000]) },
             { label: '<b>Abdelhakim</b><b style="display:none;" USAmerica</b>', layer: new L.Marker([51.823000, 6.187000]) },
             { label: '<b>Chikh</b><b style="display:none;" Salah</b>', layer: new L.Marker([48.806863, 16.171875]) },
-            { label: 'Imane Mercidess-Benz', layer: new L.Marker([48.806863, 16.171875]) },
+            { label: 'Imane <b style="display:none;" Mercidess-Benz</b>', layer: new L.Marker([48.806863, 16.171875]) },
           ]},
       ]};
