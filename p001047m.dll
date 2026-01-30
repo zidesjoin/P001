@@ -4,6 +4,8 @@
             { label: '<strong style="color:green;">Ouzaid AOUDI</strong>', layer: new L.Marker([50.823000, 6.187000]) },
             { label: '<br style="color:blue;">Ikrame BMW</br>', layer: new L.Marker([51.823000, 6.187000]) },
             { label: '<b style="color:yellow;">Abderrahim TOYOTA</b>', layer: new L.Marker([51.823000, 6.187000]) },
+            { label: '<b>Abdelhakim<b><b style="display:none;" USA</b>', layer: new L.Marker([51.823000, 6.187000]) },
+            { label: 'Chikh<b style="display:none;" Salah</b>', layer: new L.Marker([48.806863, 16.171875]) },
             { label: 'Imane Mercidess-Benz', layer: new L.Marker([48.806863, 16.171875]) },
           ]},
       ]};
