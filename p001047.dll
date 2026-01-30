@@ -1,4 +1,4 @@
- const Pharmacies_W42 = 
+ const Pharmacies_W16 = 
       { label: '<strong style="font-size: 14px; color:green;">W.Ghardaia</strong>', selectAllCheckbox: true, children: [
         { label: '<strong style="font-size: 14px; color:red;">C.Ghardaia</strong>', selectAllCheckbox: true, children: [
             { label: 'Ouzaid', layer: new L.Marker([50.823000, 6.187000]) },
