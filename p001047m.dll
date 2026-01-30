@@ -2,7 +2,7 @@
       { label: '<strong style="font-size: 14px; color:green;">W.Ghardaia</strong>', selectAllCheckbox: true, children: [
         { label: '<strong style="font-size: 14px; color:red;">C.Ghardaia</strong>', selectAllCheckbox: true, children: [
             { label: '<strong style="color:green;">Ouzaid AOUDI</strong>', layer: new L.Marker([50.823000, 6.187000]) },
-            { label: '<p style="color:blue;">Zides BMW</p>', layer: new L.Marker([51.823000, 6.187000]) },
+            { label: '<style="color:blue;">Ikrame BMW</>', layer: new L.Marker([51.823000, 6.187000]) },
             { label: 'Imane Mercidess-Benz', layer: new L.Marker([48.806863, 16.171875]) },
           ]},
       ]};
